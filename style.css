@@ -1,0 +1,134 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+.top,
+footer {
+  background-color: #1f2937; 
+  color: white; 
+}
+ul {
+    display: flex;
+    gap: 16px;
+    list-style-type: none;
+    padding: 0px 20px;
+    align-items: center;
+    height: 100px;
+    margin-bottom: 0px;
+}
+ul > :nth-child(1){
+    flex: 0 0 10%;
+  }
+ul > :nth-child(2){
+    margin-left: auto;
+}
+
+.container > :nth-child(2) {
+    object-fit: contain;
+    margin-left: auto;
+    padding: 0px 50px
+}
+.button1 {
+    background-color: #3882f6;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 25px;
+    width: 150px;
+    text-align: center;
+    border: 2px solid white;
+    margin-top: 10px;
+}
+.hero {
+    display: flex;
+    flex-direction: column;
+}
+.container {
+    display: flex;
+    margin: 16px;
+    padding: 20px;
+    height: 200px;
+    margin-bottom: 0px;
+}
+.hero > div:first-child {
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+.hero > :nth-child(2) {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.subclasses {
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.subclass-type {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 800px;
+  }
+.subclass-type > * {
+    flex: 0 0 20%;
+    text-align: center;
+}
+.quote {
+    display: flex;
+    background-color: #E5E7EB;
+    color: #1f2937;
+    font-style: italic;
+    font-size: 36px;
+    justify-content: center;
+    margin-bottom: 0px;
+ 
+}
+.quote > *{
+    max-width: 600px;
+}
+.calltoaction {
+    display: flex;
+    height: 100px;
+    width: 600px;
+    flex: 1;
+    align-self: center;
+    background-color: #3882f6;
+    margin-top: 10px;
+    padding: 5px 10px;
+}
+.calltoaction > * {
+    flex: 1;
+    color: white;
+     }
+.calltoaction > div > :nth-child(1) {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.button2 {
+    background-color: #3882f6;
+    color: white;
+    padding: 0px 16px;
+    border-radius: 25px;
+    height: 30px;
+    width: 150px;
+    text-align: center;
+    border: 4px solid white;
+    flex: 0 0 10%;
+    align-self: center;
+   }
+footer {
+    margin-top: 20px;
+    text-align: center;
+    height: 50px;
+    padding: 10px;
+    flex: 1 1 100%;
+}
+h1 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
